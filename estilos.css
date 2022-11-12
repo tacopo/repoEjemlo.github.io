@@ -1,0 +1,38 @@
+:root{
+    --colorprimario: #1199fa;
+    --colorprimarioclaro: #6bc9ff;
+    --colorprimariooscuro: #006cc6;
+    --colorsecundario: #f0e100;
+    --colorsecundarioclaro: #ffff54;
+    --colorsecundariooscuro: #b9b000;
+}
+
+
+
+body{
+    font-family: 'Shadows Into Light', cursive;
+    background-color: var(--colorprimario);
+}
+a{
+    font-family: 'Shadows Into Light', bold;
+    color: var(--colorsecundariooscuro);
+}
+h1{
+    color: var(--colorsecundario);
+}
+footer{
+    width: 100%;
+    background-color: var(--colorprimariooscuro);
+    text-align: center;
+    
+}
+header{
+    margin-top: 0;
+    width: 1000;
+    background-color: var(--colorprimario);
+   
+}
+header > h1{
+    text-align: center;
+    color: var(--colorsecundarioclaro);
+}
